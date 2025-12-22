@@ -1,184 +1,43 @@
 # 🛠️ Fabriquant: The Precision Execution Stack for Solana
 
-**Engineered for Parallelism. Built for Autonomy. Woven for Speed.**
+<p align="center">
+  <b>Engineered for Parallelism. Built for Autonomy. Woven for Speed.</b><br>
+  <i>Mastering the Sealevel runtime through high-performance looms and safety frameworks.</i>
+</p>
 
-Fabriquant is a unified development stack designed to master Solana's Sealevel runtime. We provide the high-performance looms and safety frameworks necessary for AI Agents and DeFi protocols to weave complex transactions with absolute precision.
-
-[Documentation](https://github.com/fabriquant-labs/fabriquant) | [Guard Docs](./docs/GUARD.md) | [Risk Docs](./docs/RISK.md) | [Privacy Docs](./docs/PRIVACY.md) | [X (Twitter)](https://x.com/psyto)
-
----
-
-## 🧵 The Philosophy: "Weaving the Transaction Layer"
-
-In a parallel world, transactions are no longer a linear chain—they are a complex fabric. **Fabriquant** provides the tools to design, optimize, and secure this fabric, ensuring that every thread (transaction) is executed with maximum efficiency and zero conflict.
-
-## 📦 The Fabriquant Suite
-
-### 1. 🧵 Loom (Core: `solfabric`)
-
-**The Advanced Loom.**
-A framework that structures state management and transaction bundling to eliminate lock contention.
-
--   **Parallel Optimization:** Maximizes throughput using custom data structures.
--   **Compute Efficiency:** Minimizes CU usage through optimized instruction routing.
-
-### 2. 🛡️ Guard (Core: `sol-ops-guard`)
-
-**The Quality Control.**
-An on-chain safety layer that ensures the integrity of every woven transaction.
-
--   **Execution Constraints:** Hardened boundaries for autonomous agent operations.
--   **Anti-Drain Logic:** Real-time monitoring to prevent unauthorized capital flight.
-
-### 3. ⚡ Flow (Core: `x-liquidity-engine`)
-
-**The Silk Path.**
-A high-velocity liquidity engine that finds the smoothest path for asset movement across the ecosystem.
-
--   Integrated multi-DEX routing for automated rebalancing.
--   Low-latency execution for high-frequency strategies.
-
-### 4. 🧭 Risk (Core: `pulsar`)
-
-**The Quality Gauge.**
-An AI-driven risk assessment gateway providing institutional-grade metrics for asset integrity and RWA validation.
-
--   **Real-time Risk Assessment:** Continuous monitoring of risk scores, compliance status, and oracle integrity.
--   **Intelligent Caching:** Configurable TTL to maximize performance and minimize API overhead.
--   **Guard Integration:** Seamlessly feeds data into Guard for automated transaction blocking.
-
-### 5. 🌿 Privacy (Core: `arbor`)
-
-**The Hidden Stitch.**
-A privacy and scaling layer utilizing ZK Compression for shielded, cost-efficient transaction execution.
-
--   **ZK Compression:** Massive cost reduction for state storage and account creation via Sparse Binary Merkle Trees.
--   **Privacy by Default:** Shielded state management to ensure transaction confidentiality.
--   **Efficient Execution:** Dedicated API designed for privacy-enabled operations without sacrificing speed.
+<p align="center">
+  <a href="https://x.com/psyto">
+    <img src="https://img.shields.io/badge/X-Follow%20@psyto-black?logo=x&style=flat-square" alt="X Follow">
+  </a>
+  <a href="https://github.com/fabriquant-labs/fabriquant">
+    <img src="https://img.shields.io/badge/Docs-View%20Documentation-blueviolet?style=flat-square" alt="Docs">
+  </a>
+  <img src="https://img.shields.io/badge/Ecosystem-Solana-14F195?logo=solana&style=flat-square" alt="Solana Ecosystem">
+</p>
 
 ---
 
-## 🛠️ Developer Preview: Weaving a Secure Transaction
+## 🧵 The "Weaving" Philosophy
+In the Solana environment, transactions are not linear; they are a **complex fabric**. Fabriquant provides the high-performance tools to design, optimize, and secure this fabric, ensuring every thread (transaction) is executed with maximum efficiency and zero conflict.
 
-### Basic Transaction with Guard
+### 📦 The Fabriquant Suite
 
-```typescript
-import { Fabriquant, Guard, Loom } from "@fabriquant/sdk";
+| Tool | Core Repo | Purpose |
+| :--- | :--- | :--- |
+| **🧵 Loom** | `solfabric` | **Advanced State Management.** Eliminates lock contention via parallel optimization. |
+| **🛡️ Guard** | `sol-ops-guard` | **On-Chain Quality Control.** Hardened boundaries and anti-drain logic for AI Agents. |
+| **⚡ Flow** | `x-liquidity-engine` | **The Silk Path.** Low-latency multi-DEX routing and high-velocity asset movement. |
+| **🧭 Risk** | `pulsar` | **The Quality Gauge.** AI-driven risk assessment gateway and RWA integrity validation. |
+| **🌿 Privacy** | `arbor` | **The Hidden Stitch.** ZK Compression layer for shielded, cost-efficient execution. |
 
-// 1. Initialize the Precision Guard
-const guard = new Guard({
-    maxSlippage: 0.1,
-    riskTolerance: "moderate",
-    mode: "block",
-});
+---
 
-// 2. Weave an optimized parallel transaction
-const tx = await Loom.weave({
-    type: "MULTI_ROUTE_SWAP",
-    input: "SOL",
-    output: "USDC",
-    amount: 50,
-    parallelPriority: true, // Enabled by Loom
-});
-
-// 3. Execute with Fabriquant Precision
-await Fabriquant.execute(tx, { with: guard });
-```
-
-### Transaction with Risk Assessment
+## 🚀 Active Development
+We are currently in **Phase 1.5** of our roadmap. The SDK is being unified to allow AI Agents and DeFi protocols to execute with institutional-grade precision.
 
 ```typescript
-import { Fabriquant, Guard, Pulsar } from "@fabriquant/sdk";
-
-// Guard with Risk assessment enabled
-const guard = new Guard({
-    pulsar: {
-        // Risk configuration (class still named Pulsar for backward compatibility)
-        enabled: true,
-        riskThreshold: 0.7, // Block transactions with risk > 0.7
-        enableComplianceCheck: true,
-        enableCounterpartyCheck: true,
-        cacheTTL: 60000, // Cache for 1 minute
-        fallbackOnError: true,
-    },
-    mode: "block",
-});
-
-// Transaction with asset addresses for risk assessment
-const tx = {
-    id: "tx-001",
-    status: "pending",
-    assetAddresses: ["TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"],
-    instructions: [],
-};
-
-// Risk automatically checks risk metrics during validation
-const result = await guard.validateTransaction(tx);
-if (result.isValid) {
-    await Fabriquant.execute(tx, { with: guard });
-}
-```
-
-### Private Transaction with Privacy
-
-```typescript
-import { Fabriquant, Guard, FabricCore } from "@fabriquant/sdk";
-
-const guard = new Guard({ riskTolerance: "moderate" });
-
-// Optimize transaction with privacy enabled
-const tx = FabricCore.optimize(transaction, {
-    enablePrivacy: true,
-    compressionLevel: "high",
-    privacyProvider: "arbor", // Privacy (provider identifier unchanged for backward compatibility)
-});
-
-// Execute as private transaction with ZK Compression
-const result = await Fabriquant.executePrivate(tx, {
+// The Fabriquant Pattern
+await Fabriquant.executePrivate(tx, {
     with: guard,
-    privacy: {
-        provider: "arbor", // Privacy
-        compression: true,
-    },
+    privacy: { provider: "arbor", compression: true }
 });
-
-// Estimate cost savings
-const savings = FabricCore.estimateCompressionSavings(1000);
-console.log(`Savings: ${savings.savingsPercent.toFixed(2)}%`);
-```
-
-> **Note:** The SDK is currently in active development. Core functionality is being integrated from standalone repositories.
-
----
-
-## 🗺️ Roadmap: 2025-2026
-
--   **Phase 1: The Loom (SDK Consolidation)** ✅ - Merging core modules into `@fabriquant/sdk`.
--   **Phase 1.5: Risk & Privacy Integration** ✅ - Risk oracle and Privacy layer integrated.
--   **Phase 2: Pattern Library** - Pre-built execution templates for AI Trading Agents and DAO Treasury Management.
--   **Phase 2.5: Full ZK Stack Integration** - Complete Privacy/Light Protocol integration with proof generation.
--   **Phase 3: The Fabriquant Mainnet** - A decentralized autonomous vault infrastructure leveraging the full stack.
-
----
-
-## 🤝 Join the Atelier
-
-Fabriquant is an open-source initiative for the Solana builder community.
-
--   **Builders:** Star our repos and contribute to the parallel execution revolution.
--   **Projects:** Contact us for integration support for AI Agents and DeFi infrastructure.
-
----
-
-## 🛠️ Core Repositories
-
--   [x-liquidity-engine](https://github.com/psyto/x-liquidity-engine) - The Liquidity Backbone
--   [sol-ops-guard](https://github.com/psyto/sol-ops-guard) - Security & Compliance
--   [solfabric](https://github.com/psyto/solfabric) - Parallel Execution Logic
--   [pulsar](https://github.com/psyto/pulsar) - Risk: RWA Risk Oracle & Integrity Gateway
--   [arbor](https://github.com/psyto/arbor) - Privacy: Shielded State Middleware & Privacy Layer
-
----
-
-**Fabriquant: Weaving the Future of Autonomous Finance.**
-Built with ❤️ by **psyto** | Powered by **Solana**
