@@ -1,26 +1,97 @@
-# We are Fabrknt 👋
+# fabrknt
 
-Fabrknt is a unified precision execution stack — Solana-First, Cross-Chain Enabled — built with the vision of mastering parallel execution for the next generation of autonomous finance. By leveraging Solana's Sealevel runtime, Fabrknt provides the high-performance "looms" and safety frameworks necessary for AI Agents and DeFi protocols to weave complex transactions with absolute precision and zero conflict across blockchains.
+**Crypto-financial execution infrastructure**  
+for builders shipping real financial products.
 
-### 🧵 Weaving the Transaction Layer
-In a parallel execution environment, transactions are no longer linear—they are a complex fabric. Fabrknt has designed practical, modular solutions to manage this complexity:
-
-* **Loom (`solfabric`):** An advanced framework for structured state management and parallel optimization.
-* **Guard (`sol-ops-guard`):** An on-chain safety layer providing execution constraints and anti-drain logic for autonomous operations.
-* **Risk (`pulsar`):** An AI-driven risk assessment gateway for RWA validation and asset integrity.
-* **Privacy (`arbor`):** A scaling and confidentiality layer utilizing ZK Compression for cost-efficient, shielded execution.
-
-### 🛡️ Our Mission
-Fabrknt's mission is to build a secure, transparent, and high-velocity execution infrastructure that empowers developers to build sophisticated AI-driven financial agents while ensuring institutional-grade safety. We are committed to optimizing compute efficiency and maximizing throughput across the Solana ecosystem, with portable components expanding to EVM chains.
-
-### 🚀 Our Approach
-Operating as a bootstrap-first, solopreneur-led project, we leverage AI tools extensively to maximize efficiency and impact while maintaining sustainable growth and strategic scaling.
+fabrknt is a crypto-native execution stack designed to help teams  
+build **production-ready financial applications** on Solana and EVM  
+— without rebuilding the hardest parts of crypto-finance.
 
 ---
 
-### 🌐 Connect with the Atelier
-* **Documentation:** [Explore the Stack](https://github.com/fabrknt/fabrknt)
-* **Updates:** Follow our progress on [X (Twitter)](https://x.com/psyto)
+## What is fabrknt?
 
-**Fabrknt: Weaving the Future of Autonomous Finance.**
-Built with ❤️ by **psyto** | Powered by **Solana**
+Building crypto-financial products still takes months because every team:
+
+- designs transaction flows from scratch  
+- reimplements wallet and key management  
+- invents custom ledger and accounting logic  
+- handles failures and retries manually  
+
+fabrknt abstracts this complexity into  
+**opinionated, production-ready primitives**.
+
+You focus on business logic.  
+fabrknt handles execution, reliability, and financial plumbing.
+
+---
+
+## Built for real crypto-financial use cases
+
+- Crypto subscription payments  
+- Token-based incentives & rewards  
+- Web3 fintech MVPs  
+- Internal treasury & ops tooling  
+
+Designed for products that **move money**, not demos.
+
+---
+
+## Who fabrknt is for
+
+**For:**
+- Solo founders and small teams  
+- Crypto-native fintech startups  
+- Engineers building financial systems  
+- Teams operating across Asia and global markets  
+
+**Not for:**
+- NFT-only experiments  
+- No-code playgrounds  
+- Throwaway demos  
+
+---
+
+## Security & reliability first
+
+- Managed key infrastructure (KMS)  
+- Server-side signing  
+- Role-based access control  
+- Auditable transaction logs  
+- Compliance-aware system design  
+
+Crypto is finance — not just code.
+
+---
+
+## Built with cross-border finance in mind
+
+Designed from Singapore,  
+informed by real-world experience across:
+
+- Japan  
+- Hong Kong  
+- India  
+
+Different regulators.  
+Different banking systems.  
+Different risk models.
+
+That reality is reflected in the architecture.
+
+---
+
+## Project status
+
+🚧 **Early-stage / Active development**
+
+- Core execution primitives under development  
+- SDKs and templates evolving rapidly  
+- Early access available for serious builders  
+
+---
+
+👉 https://www.fabrknt.com
+
+**Stop rebuilding crypto-financial plumbing.**  
+Build faster. Ship safer. Scale with confidence.
