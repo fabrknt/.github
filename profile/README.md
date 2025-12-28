@@ -15,30 +15,47 @@ We believe developers shouldn't have to reinvent security patterns, transaction 
 ## 🌟 Our Values
 
 ### Open Source First
+
 Everything we build is open source (MIT license). No vendor lock-in, no proprietary components. Free forever.
 
 ### Developer Experience
+
 We prioritize clear documentation, comprehensive examples, and intuitive APIs. If it's not easy to use, it's not ready.
 
 ### Security by Default
+
 Financial applications require the highest security standards. We build security into every layer, not as an afterthought.
 
 ### Community Driven
+
 The best tools are built by the people who use them. We welcome contributions, feedback, and collaboration from everyone.
 
 ### Production Ready
+
 We don't ship prototypes. Every release is tested, documented, and ready for production use.
 
 ---
 
 ## 🏗️ Our Projects
 
-### [fabrknt](https://github.com/fabrknt/fabrknt)
-Open source SDK for building crypto financial operations on Solana. Production-tested primitives and patterns for payment systems, treasury tools, and financial workflows.
+### Core Repositories
 
-**Status:** Active Development (v0.3.0)
-**License:** MIT
-**Language:** TypeScript
+Fabrknt consists of five core repositories, each providing specialized functionality. **Each repository can be used independently** or integrated through the unified SDK:
+
+-   **[flow](https://github.com/fabrknt/flow)** - The Liquidity Backbone (Multi-DEX liquidity routing)
+-   **[guard](https://github.com/fabrknt/guard)** - Security & Compliance (Transaction validation)
+-   **[loom](https://github.com/fabrknt/loom)** - Parallel Execution Logic (High-performance execution)
+-   **[risk](https://github.com/fabrknt/risk)** - RWA Risk Oracle & Integrity Gateway (Risk assessment)
+-   **[privacy](https://github.com/fabrknt/privacy)** - Shielded State Middleware & Privacy Layer (ZK Compression)
+
+### [fabrknt](https://github.com/fabrknt/fabrknt)
+
+Unified SDK for building crypto financial operations on Solana. Integrates all core modules with production-tested primitives and patterns for payment systems, treasury tools, and financial workflows.
+
+**Status:** Active Development (v0.3.0)  
+**License:** MIT  
+**Language:** TypeScript  
+**Modules:** Use independently or together through the unified SDK
 
 ---
 
@@ -48,13 +65,13 @@ We welcome contributions from developers of all skill levels!
 
 ### Ways to Contribute
 
-- **💻 Code Contributions** - Fix bugs, add features, improve performance
-- **📝 Documentation** - Improve guides, add examples, fix typos
-- **🎨 Patterns** - Create new patterns for common use cases
-- **🐛 Bug Reports** - Help us identify and fix issues
-- **💡 Feature Requests** - Share ideas for new capabilities
-- **👥 Community Support** - Answer questions, help other developers
-- **🌐 Translations** - Help make our docs accessible to more developers
+-   **💻 Code Contributions** - Fix bugs, add features, improve performance
+-   **📝 Documentation** - Improve guides, add examples, fix typos
+-   **🎨 Patterns** - Create new patterns for common use cases
+-   **🐛 Bug Reports** - Help us identify and fix issues
+-   **💡 Feature Requests** - Share ideas for new capabilities
+-   **👥 Community Support** - Answer questions, help other developers
+-   **🌐 Translations** - Help make our docs accessible to more developers
 
 ### Getting Started
 
@@ -71,29 +88,31 @@ All contributions are valued and credited. We follow the [All Contributors](http
 
 ### Connect With Us
 
-- **💬 [GitHub Discussions](https://github.com/fabrknt/fabrknt/discussions)** - Ask questions, share ideas, get help
-- **🐛 [Issues](https://github.com/fabrknt/fabrknt/issues)** - Report bugs, request features
-- **🐦 [Twitter/X](https://x.com/psyto)** - Updates, announcements, and discussions
-- **🌐 [Website](https://fabrknt.com)** - Project information and resources
+-   **💬 [GitHub Discussions](https://github.com/fabrknt/fabrknt/discussions)** - Ask questions, share ideas, get help
+-   **🐛 [Issues](https://github.com/fabrknt/fabrknt/issues)** - Report bugs, request features
+-   **🐦 [Twitter/X](https://x.com/fabrknt)** - Updates, announcements, and discussions
+-   **🌐 [Website](https://fabrknt.com)** - Project information and resources
 
 ### Community Guidelines
 
 We're committed to providing a welcoming and inclusive environment:
 
-- ✅ Be respectful and considerate
-- ✅ Welcome newcomers and help others learn
-- ✅ Give and receive constructive feedback gracefully
-- ✅ Focus on what's best for the community
-- ✅ Show empathy towards other community members
+-   ✅ Be respectful and considerate
+-   ✅ Welcome newcomers and help others learn
+-   ✅ Give and receive constructive feedback gracefully
+-   ✅ Focus on what's best for the community
+-   ✅ Show empathy towards other community members
 
 ---
 
 ## 📊 Organization Stats
 
-![Repositories](https://img.shields.io/badge/repositories-1-blue.svg)
+![Repositories](https://img.shields.io/badge/repositories-6-blue.svg)
 ![Contributors](https://img.shields.io/github/contributors/fabrknt/fabrknt?color=green)
 ![Total Stars](https://img.shields.io/github/stars/fabrknt?style=social)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+**Core Modules:** 5 independent repositories + 1 unified SDK
 
 ---
 
@@ -101,11 +120,11 @@ We're committed to providing a welcoming and inclusive environment:
 
 Our projects are built with:
 
-- **TypeScript** - Type-safe development
-- **Solana Web3.js** - Blockchain integration
-- **Vitest** - Testing framework
-- **GitHub Actions** - CI/CD
-- **Vercel** - Documentation hosting
+-   **TypeScript** - Type-safe development
+-   **Solana Web3.js** - Blockchain integration
+-   **Vitest** - Testing framework
+-   **GitHub Actions** - CI/CD
+-   **Vercel** - Documentation hosting
 
 We believe in using proven, well-maintained technologies that developers already know and trust.
 
@@ -114,16 +133,18 @@ We believe in using proven, well-maintained technologies that developers already
 ## 🗺️ Roadmap
 
 ### Current Focus (2025 Q1)
-- Core SDK stability and performance optimization
-- Comprehensive pattern library expansion
-- Developer documentation and examples
-- Community growth and contributor onboarding
+
+-   Core SDK stability and performance optimization
+-   Comprehensive pattern library expansion
+-   Developer documentation and examples
+-   Community growth and contributor onboarding
 
 ### Future Plans
-- Cross-chain support (EVM chains)
-- Hosted API services
-- Advanced analytics and monitoring
-- Developer certification program
+
+-   Cross-chain support (EVM chains)
+-   Hosted API services
+-   Advanced analytics and monitoring
+-   Developer certification program
 
 See our [public roadmap](https://github.com/fabrknt/fabrknt/issues) for detailed plans and progress.
 
@@ -134,10 +155,11 @@ See our [public roadmap](https://github.com/fabrknt/fabrknt/issues) for detailed
 Fabrknt is currently maintained by [@psyto](https://github.com/psyto) with support from community contributors.
 
 We believe in:
-- **Transparent decision-making** - Discussions happen in public
-- **Community input** - Major decisions are discussed with contributors
-- **Meritocracy** - Good ideas can come from anyone
-- **Open roadmap** - Our plans are public and open to feedback
+
+-   **Transparent decision-making** - Discussions happen in public
+-   **Community input** - Major decisions are discussed with contributors
+-   **Meritocracy** - Good ideas can come from anyone
+-   **Open roadmap** - Our plans are public and open to feedback
 
 As the project grows, we'll transition to a more formal governance model with input from active contributors.
 
@@ -147,9 +169,9 @@ As the project grows, we'll transition to a more formal governance model with in
 
 Fabrknt is bootstrapped and sustainable through:
 
-- **Open Source SDK** - Free forever (MIT license)
-- **Future Commercial Services** - Optional hosted API, enterprise support
-- **Community Support** - Sponsorships and donations welcome
+-   **Open Source SDK** - Free forever (MIT license)
+-   **Future Commercial Services** - Optional hosted API, enterprise support
+-   **Community Support** - Sponsorships and donations welcome
 
 Our commitment: The core SDK will always be 100% open source and free to use.
 
@@ -160,10 +182,11 @@ Our commitment: The core SDK will always be 100% open source and free to use.
 All Fabrknt projects are released under the **MIT License** unless otherwise specified.
 
 This means you can:
-- ✅ Use commercially
-- ✅ Modify freely
-- ✅ Distribute
-- ✅ Use privately
+
+-   ✅ Use commercially
+-   ✅ Modify freely
+-   ✅ Distribute
+-   ✅ Use privately
 
 See individual project repositories for specific license details.
 
@@ -173,10 +196,10 @@ See individual project repositories for specific license details.
 
 Fabrknt builds on the incredible work of:
 
-- **Solana Foundation** - For the high-performance blockchain platform
-- **Jupiter Aggregator** - For DEX liquidity routing
-- **Light Protocol** - For ZK compression capabilities
-- **Open Source Community** - For countless libraries and tools we depend on
+-   **Solana Foundation** - For the high-performance blockchain platform
+-   **Jupiter Aggregator** - For DEX liquidity routing
+-   **Light Protocol** - For ZK compression capabilities
+-   **Open Source Community** - For countless libraries and tools we depend on
 
 We're grateful to stand on the shoulders of giants.
 
