@@ -10,7 +10,7 @@ We're a community-driven organization creating production-grade business intelli
 
 **Democratize access to Web3 business operations and crypto financial infrastructure.**
 
-We believe Web3 teams deserve transparency and trust in business operations. Our Suite tools (PULSE, TRACE, FABRIC) eliminate information asymmetry by providing verified proof of team vitality, marketing ROI, and project value—enabling high-trust business transfers and operations.
+We believe Web3 teams deserve transparency and trust in business operations. Our Suite tools (PULSE, TRACE, FABRIC) eliminate information asymmetry by providing verified proof of team vitality, marketing ROI, service activity, and project value—enabling high-trust business transfers and operations.
 
 We also believe developers shouldn't have to reinvent security patterns, transaction orchestration, and parallel execution every time they build a payment system or treasury tool. Our SDKs provide battle-tested, open source primitives that make building crypto financial applications accessible to everyone.
 
@@ -45,13 +45,13 @@ We don't ship prototypes. Every release is tested, documented, and ready for pro
 A unified platform of Web3 business intelligence and operations tools that work together to provide complete visibility into project health, growth, and value:
 
 -   **[pulse](https://github.com/fabrknt/pulse)** - Operational Verification (Team vitality & contribution scoring)
--   **[trace](https://github.com/fabrknt/trace)** - Growth Verification (Marketing attribution & ROI tracking)
+-   **[trace](https://github.com/fabrknt/trace)** - Growth Verification (Marketing attribution & ROI tracking + comprehensive on-chain activity monitoring)
 -   **[fabric](https://github.com/fabrknt/fabric)** - The Exit Layer (M&A terminal for Web3)
 
 **Status:** In Development  
 **License:** MIT  
 **Language:** TypeScript  
-**Synergy:** PULSE proves team vitality, TRACE proves marketing ROI, FABRIC enables high-trust business transfers
+**Synergy:** PULSE proves team vitality, TRACE proves marketing ROI and service activity, FABRIC enables high-trust business transfers
 
 ### Developer SDK
 
