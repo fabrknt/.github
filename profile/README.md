@@ -70,11 +70,11 @@ Unified SDK for building crypto financial operations on Solana. Integrates all c
 
 Fabrknt SDK consists of five core repositories, each providing specialized functionality. **Each repository can be used independently** or integrated through the unified SDK:
 
--   **[flow](https://github.com/fabrknt/flow)** - The Liquidity Backbone (Multi-DEX liquidity routing)
--   **[guard](https://github.com/fabrknt/guard)** - Security & Compliance (Transaction validation)
--   **[loom](https://github.com/fabrknt/loom)** - Parallel Execution Logic (High-performance execution)
--   **[risk](https://github.com/fabrknt/risk)** - RWA Risk Oracle & Integrity Gateway (Risk assessment)
--   **[privacy](https://github.com/fabrknt/privacy)** - Shielded State Middleware & Privacy Layer (ZK Compression)
+-   **[flow](https://github.com/fabrknt/fabrknt-sdk/tree/main/flow)** - The Liquidity Backbone (Multi-DEX liquidity routing)
+-   **[guard](https://github.com/fabrknt/fabrknt-sdk/tree/main/guard)** - Security & Compliance (Transaction validation)
+-   **[loom](https://github.com/fabrknt/fabrknt-sdk/tree/main/loom)** - Parallel Execution Logic (High-performance execution)
+-   **[risk](https://github.com/fabrknt/fabrknt-sdk/tree/main/risk)** - RWA Risk Oracle & Integrity Gateway (Risk assessment)
+-   **[privacy](https://github.com/fabrknt/fabrknt-sdk/tree/main/privacy)** - Shielded State Middleware & Privacy Layer (ZK Compression)
 
 ---
 
