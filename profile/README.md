@@ -1,6 +1,6 @@
 # Welcome to Fabrknt
 
-**Web3 Business Intelligence Platform**
+**Web3 Business Intelligence Platform and SDKs**
 
 We're a community-driven organization creating production-grade business intelligence tools for Web3 teams. Our Suite (PULSE, TRACE, FABRIC) provides complete visibility into project health, growth, and value. We also provide open source SDKs for developers building crypto financial operations.
 
