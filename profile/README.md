@@ -1,6 +1,6 @@
 # Welcome to Fabrknt
 
-**Web3 Business Intelligence Platform and SDKs**
+**Web3 Business Intelligence Platform**
 
 We're a community-driven organization creating production-grade business intelligence tools for Web3 teams. Our Suite (PULSE, TRACE, FABRIC) provides complete visibility into project health, growth, and value. We also provide open source SDKs for developers building crypto financial operations.
 
@@ -44,9 +44,9 @@ We don't ship prototypes. Every release is tested, documented, and ready for pro
 
 A unified platform of Web3 business intelligence and operations tools that work together to provide complete visibility into project health, growth, and value:
 
--   **[pulse](https://github.com/fabrknt/pulse)** - Operational Verification (Team vitality & contribution scoring)
--   **[trace](https://github.com/fabrknt/trace)** - Growth Verification (Marketing attribution & ROI tracking + comprehensive on-chain activity monitoring)
--   **[fabric](https://github.com/fabrknt/fabric)** - The Exit Layer (M&A terminal for Web3)
+-   **PULSE** - Operational Verification (Team vitality & contribution scoring) - _Private Repository_
+-   **TRACE** - Growth Verification (Marketing attribution & ROI tracking + comprehensive on-chain activity monitoring) - _Private Repository_
+-   **FABRIC** - The Exit Layer (M&A terminal for Web3) - _Private Repository_
 
 **Status:** In Development  
 **License:** MIT  
@@ -57,7 +57,7 @@ A unified platform of Web3 business intelligence and operations tools that work 
 
 Open source SDK for building crypto financial operations on Solana. **Built by the same team behind Fabrknt Suite.**
 
-#### [fabrknt](https://github.com/fabrknt/fabrknt)
+#### [fabrknt-sdk](https://github.com/fabrknt/fabrknt-sdk)
 
 Unified SDK for building crypto financial operations on Solana. Integrates all core modules with production-tested primitives and patterns for payment systems, treasury tools, and financial workflows.
 
@@ -94,10 +94,10 @@ We welcome contributions from developers of all skill levels!
 
 ### Getting Started
 
-1. **Read our [Contributing Guide](https://github.com/fabrknt/fabrknt#contributing)**
-2. **Check [Good First Issues](https://github.com/fabrknt/fabrknt/labels/good%20first%20issue)**
-3. **Join [GitHub Discussions](https://github.com/fabrknt/fabrknt/discussions)**
-4. **Review [Code of Conduct](https://github.com/fabrknt/fabrknt/blob/main/CODE_OF_CONDUCT.md)**
+1. **Read our [Contributing Guide](https://github.com/fabrknt/fabrknt-sdk#contributing)**
+2. **Check [Good First Issues](https://github.com/fabrknt/fabrknt-sdk/labels/good%20first%20issue)**
+3. **Join [GitHub Discussions](https://github.com/fabrknt/fabrknt-sdk/discussions)**
+4. **Review [Code of Conduct](https://github.com/fabrknt/fabrknt-sdk/blob/main/CODE_OF_CONDUCT.md)**
 
 All contributions are valued and credited. We follow the [All Contributors](https://allcontributors.org/) specification.
 
@@ -107,8 +107,8 @@ All contributions are valued and credited. We follow the [All Contributors](http
 
 ### Connect With Us
 
--   **💬 [GitHub Discussions](https://github.com/fabrknt/fabrknt/discussions)** - Ask questions, share ideas, get help
--   **🐛 [Issues](https://github.com/fabrknt/fabrknt/issues)** - Report bugs, request features
+-   **💬 [GitHub Discussions](https://github.com/fabrknt/fabrknt-sdk/discussions)** - Ask questions, share ideas, get help
+-   **🐛 [Issues](https://github.com/fabrknt/fabrknt-sdk/issues)** - Report bugs, request features
 -   **🐦 [Twitter/X](https://x.com/fabrknt)** - Updates, announcements, and discussions
 -   **🌐 [Website](https://fabrknt.com)** - Project information and resources
 
@@ -127,8 +127,8 @@ We're committed to providing a welcoming and inclusive environment:
 ## 📊 Organization Stats
 
 ![Repositories](https://img.shields.io/badge/repositories-9-blue.svg)
-![Contributors](https://img.shields.io/github/contributors/fabrknt/fabrknt?color=green)
-![Total Stars](https://img.shields.io/github/stars/fabrknt?style=social)
+![Contributors](https://img.shields.io/github/contributors/fabrknt/fabrknt-sdk?color=green)
+![Total Stars](https://img.shields.io/github/stars/fabrknt/fabrknt-sdk?style=social)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 **SDK Modules:** 5 independent repositories + 1 unified SDK  
@@ -167,7 +167,7 @@ We believe in using proven, well-maintained technologies that developers already
 -   Advanced analytics and monitoring
 -   Developer certification program
 
-See our [public roadmap](https://github.com/fabrknt/fabrknt/issues) for detailed plans and progress.
+See our [public roadmap](https://github.com/fabrknt/fabrknt-sdk/issues) for detailed plans and progress.
 
 ---
 
@@ -233,7 +233,7 @@ We're grateful to stand on the shoulders of giants.
 Whether you're a developer, designer, technical writer, or enthusiast —
 there's a place for you in the Fabrknt community.
 
-**[Explore Projects](https://github.com/orgs/fabrknt/repositories)** • **[Start Contributing](https://github.com/fabrknt/fabrknt#contributing)** • **[Join Discussions](https://github.com/fabrknt/fabrknt/discussions)**
+**[Explore Projects](https://github.com/orgs/fabrknt/repositories)** • **[Start Contributing](https://github.com/fabrknt/fabrknt-sdk#contributing)** • **[Join Discussions](https://github.com/fabrknt/fabrknt-sdk/discussions)**
 
 ---
 
