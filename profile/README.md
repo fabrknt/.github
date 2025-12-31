@@ -1,16 +1,18 @@
 # Welcome to Fabrknt
 
-**Building open source tools for crypto financial operations**
+**Building open source tools for crypto financial operations and Web3 business intelligence**
 
-We're a community-driven organization creating production-grade SDKs and tools that help developers build reliable financial applications on blockchain platforms.
+We're a community-driven organization creating production-grade SDKs for developers and business intelligence tools for Web3 teams. Our SDKs help developers build reliable financial applications, while our Suite provides complete visibility into project health, growth, and value.
 
 ---
 
 ## 🎯 Our Mission
 
-**Democratize access to crypto financial infrastructure.**
+**Democratize access to crypto financial infrastructure and Web3 business operations.**
 
-We believe developers shouldn't have to reinvent security patterns, transaction orchestration, and parallel execution every time they build a payment system or treasury tool. Our mission is to provide battle-tested, open source primitives that make building crypto financial applications accessible to everyone.
+We believe developers shouldn't have to reinvent security patterns, transaction orchestration, and parallel execution every time they build a payment system or treasury tool. Our SDKs provide battle-tested, open source primitives that make building crypto financial applications accessible to everyone.
+
+We also believe Web3 teams deserve transparency and trust in business operations. Our Suite tools (PULSE, TRACE, FABRIC) eliminate information asymmetry by providing verified proof of team vitality, marketing ROI, and project value—enabling high-trust business transfers and operations.
 
 ## 🌟 Our Values
 
@@ -38,9 +40,9 @@ We don't ship prototypes. Every release is tested, documented, and ready for pro
 
 ## 🏗️ Our Projects
 
-### Core Repositories
+### SDK Repositories
 
-Fabrknt consists of five core repositories, each providing specialized functionality. **Each repository can be used independently** or integrated through the unified SDK:
+Fabrknt consists of five core SDK repositories, each providing specialized functionality. **Each repository can be used independently** or integrated through the unified SDK:
 
 -   **[flow](https://github.com/fabrknt/flow)** - The Liquidity Backbone (Multi-DEX liquidity routing)
 -   **[guard](https://github.com/fabrknt/guard)** - Security & Compliance (Transaction validation)
@@ -56,6 +58,19 @@ Unified SDK for building crypto financial operations on Solana. Integrates all c
 **License:** MIT  
 **Language:** TypeScript  
 **Modules:** Use independently or together through the unified SDK
+
+### Fabrknt Suite
+
+A unified platform of Web3 business intelligence and operations tools that work together to provide complete visibility into project health, growth, and value:
+
+-   **[pulse](https://github.com/fabrknt/pulse)** - Operational Verification (Team vitality & contribution scoring)
+-   **[trace](https://github.com/fabrknt/trace)** - Growth Verification (Marketing attribution & ROI tracking)
+-   **[fabric](https://github.com/fabrknt/fabric)** - The Exit Layer (M&A terminal for Web3)
+
+**Status:** In Development  
+**License:** MIT  
+**Language:** TypeScript  
+**Synergy:** PULSE proves team vitality, TRACE proves marketing ROI, FABRIC enables high-trust business transfers
 
 ---
 
@@ -107,12 +122,13 @@ We're committed to providing a welcoming and inclusive environment:
 
 ## 📊 Organization Stats
 
-![Repositories](https://img.shields.io/badge/repositories-6-blue.svg)
+![Repositories](https://img.shields.io/badge/repositories-9-blue.svg)
 ![Contributors](https://img.shields.io/github/contributors/fabrknt/fabrknt?color=green)
 ![Total Stars](https://img.shields.io/github/stars/fabrknt?style=social)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-**Core Modules:** 5 independent repositories + 1 unified SDK
+**SDK Modules:** 5 independent repositories + 1 unified SDK  
+**Suite Products:** 3 integrated applications
 
 ---
 
@@ -138,6 +154,7 @@ We believe in using proven, well-maintained technologies that developers already
 -   Comprehensive pattern library expansion
 -   Developer documentation and examples
 -   Community growth and contributor onboarding
+-   Fabrknt Suite development (PULSE, TRACE, FABRIC)
 
 ### Future Plans
 
