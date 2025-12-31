@@ -1,18 +1,18 @@
 # Welcome to Fabrknt
 
-**Building open source tools for crypto financial operations and Web3 business intelligence**
+**Web3 Business Intelligence Platform**
 
-We're a community-driven organization creating production-grade SDKs for developers and business intelligence tools for Web3 teams. Our SDKs help developers build reliable financial applications, while our Suite provides complete visibility into project health, growth, and value.
+We're a community-driven organization creating production-grade business intelligence tools for Web3 teams. Our Suite (PULSE, TRACE, FABRIC) provides complete visibility into project health, growth, and value. We also provide open source SDKs for developers building crypto financial operations.
 
 ---
 
 ## 🎯 Our Mission
 
-**Democratize access to crypto financial infrastructure and Web3 business operations.**
+**Democratize access to Web3 business operations and crypto financial infrastructure.**
 
-We believe developers shouldn't have to reinvent security patterns, transaction orchestration, and parallel execution every time they build a payment system or treasury tool. Our SDKs provide battle-tested, open source primitives that make building crypto financial applications accessible to everyone.
+We believe Web3 teams deserve transparency and trust in business operations. Our Suite tools (PULSE, TRACE, FABRIC) eliminate information asymmetry by providing verified proof of team vitality, marketing ROI, and project value—enabling high-trust business transfers and operations.
 
-We also believe Web3 teams deserve transparency and trust in business operations. Our Suite tools (PULSE, TRACE, FABRIC) eliminate information asymmetry by providing verified proof of team vitality, marketing ROI, and project value—enabling high-trust business transfers and operations.
+We also believe developers shouldn't have to reinvent security patterns, transaction orchestration, and parallel execution every time they build a payment system or treasury tool. Our SDKs provide battle-tested, open source primitives that make building crypto financial applications accessible to everyone.
 
 ## 🌟 Our Values
 
@@ -40,25 +40,6 @@ We don't ship prototypes. Every release is tested, documented, and ready for pro
 
 ## 🏗️ Our Projects
 
-### SDK Repositories
-
-Fabrknt consists of five core SDK repositories, each providing specialized functionality. **Each repository can be used independently** or integrated through the unified SDK:
-
--   **[flow](https://github.com/fabrknt/flow)** - The Liquidity Backbone (Multi-DEX liquidity routing)
--   **[guard](https://github.com/fabrknt/guard)** - Security & Compliance (Transaction validation)
--   **[loom](https://github.com/fabrknt/loom)** - Parallel Execution Logic (High-performance execution)
--   **[risk](https://github.com/fabrknt/risk)** - RWA Risk Oracle & Integrity Gateway (Risk assessment)
--   **[privacy](https://github.com/fabrknt/privacy)** - Shielded State Middleware & Privacy Layer (ZK Compression)
-
-### [fabrknt](https://github.com/fabrknt/fabrknt)
-
-Unified SDK for building crypto financial operations on Solana. Integrates all core modules with production-tested primitives and patterns for payment systems, treasury tools, and financial workflows.
-
-**Status:** Active Development (v0.3.0)  
-**License:** MIT  
-**Language:** TypeScript  
-**Modules:** Use independently or together through the unified SDK
-
 ### Fabrknt Suite
 
 A unified platform of Web3 business intelligence and operations tools that work together to provide complete visibility into project health, growth, and value:
@@ -71,6 +52,29 @@ A unified platform of Web3 business intelligence and operations tools that work 
 **License:** MIT  
 **Language:** TypeScript  
 **Synergy:** PULSE proves team vitality, TRACE proves marketing ROI, FABRIC enables high-trust business transfers
+
+### Developer SDK
+
+Open source SDK for building crypto financial operations on Solana. **Built by the same team behind Fabrknt Suite.**
+
+#### [fabrknt](https://github.com/fabrknt/fabrknt)
+
+Unified SDK for building crypto financial operations on Solana. Integrates all core modules with production-tested primitives and patterns for payment systems, treasury tools, and financial workflows.
+
+**Status:** Active Development (v0.3.0)  
+**License:** MIT  
+**Language:** TypeScript  
+**Modules:** Use independently or together through the unified SDK
+
+#### SDK Core Repositories
+
+Fabrknt SDK consists of five core repositories, each providing specialized functionality. **Each repository can be used independently** or integrated through the unified SDK:
+
+-   **[flow](https://github.com/fabrknt/flow)** - The Liquidity Backbone (Multi-DEX liquidity routing)
+-   **[guard](https://github.com/fabrknt/guard)** - Security & Compliance (Transaction validation)
+-   **[loom](https://github.com/fabrknt/loom)** - Parallel Execution Logic (High-performance execution)
+-   **[risk](https://github.com/fabrknt/risk)** - RWA Risk Oracle & Integrity Gateway (Risk assessment)
+-   **[privacy](https://github.com/fabrknt/privacy)** - Shielded State Middleware & Privacy Layer (ZK Compression)
 
 ---
 
