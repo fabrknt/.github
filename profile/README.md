@@ -1,242 +1,60 @@
-# Welcome to Fabrknt
+# Welcome to Fabrknt 👋
 
-**Web3 Business Intelligence Platform**
+**Web3 Intelligence & Matching Platform**
 
-We're a community-driven organization creating production-grade business intelligence tools for Web3 teams. Our Suite (PULSE, TRACE, FABRIC) provides complete visibility into project health, growth, and value. We also provide open source SDKs for developers building crypto financial operations.
-
----
-
-## 🎯 Our Mission
-
-**Democratize access to Web3 business operations and crypto financial infrastructure.**
-
-We believe Web3 teams deserve transparency and trust in business operations. Our Suite tools (PULSE, TRACE, FABRIC) eliminate information asymmetry by providing verified proof of team vitality, marketing ROI, service activity, and project value—enabling high-trust business transfers and operations.
-
-We also believe developers shouldn't have to reinvent security patterns, transaction orchestration, and parallel execution every time they build a payment system or treasury tool. Our SDKs provide battle-tested, open source primitives that make building crypto financial applications accessible to everyone.
-
-## 🌟 Our Values
-
-### Open Source First
-
-Everything we build is open source (MIT license). No vendor lock-in, no proprietary components. Free forever.
-
-### Developer Experience
-
-We prioritize clear documentation, comprehensive examples, and intuitive APIs. If it's not easy to use, it's not ready.
-
-### Security by Default
-
-Financial applications require the highest security standards. We build security into every layer, not as an afterthought.
-
-### Community Driven
-
-The best tools are built by the people who use them. We welcome contributions, feedback, and collaboration from everyone.
-
-### Production Ready
-
-We don't ship prototypes. Every release is tested, documented, and ready for production use.
+Building production-grade tools for Web3 business intelligence and M&A operations. Our platform combines **Intelligence** (automated company intelligence) and **Match** (M&A & partnership matching) to enable high-trust business transactions.
 
 ---
 
-## 🏗️ Our Projects
+## 🌟 Products
 
 ### Fabrknt Suite
 
-A unified platform of Web3 business intelligence and operations tools that work together to provide complete visibility into project health, growth, and value:
+**🧠 Intelligence** - Automated company intelligence (growth metrics, team health, verified data)  
+**🔗 Match** - M&A & partnership matching powered by Intelligence data
 
--   **PULSE** - Operational Verification (Team vitality & contribution scoring) - _Private Repository_
--   **TRACE** - Growth Verification (Marketing attribution & ROI tracking + comprehensive on-chain activity monitoring) - _Private Repository_
--   **FABRIC** - The Exit Layer (M&A terminal for Web3) - _Private Repository_
+**Architecture:** Intelligence → Match  
+**Status:** In Development | [www.fabrknt.com](https://www.fabrknt.com)
 
-**Status:** In Development  
-**License:** MIT  
-**Language:** TypeScript  
-**Synergy:** PULSE proves team vitality, TRACE proves marketing ROI and service activity, FABRIC enables high-trust business transfers
+**Key Features:** 50%+ time reduction, weeks-to-days processing, three-tier data integration, SME focus ($1M-$5M range)
 
 ### Developer SDK
 
-Open source SDK for building crypto financial operations on Solana. **Built by the same team behind Fabrknt Suite.**
+**[fabrknt-sdk](https://github.com/fabrknt/fabrknt-sdk)** - Open source SDK for crypto financial operations on Solana
 
-#### [fabrknt-sdk](https://github.com/fabrknt/fabrknt-sdk)
+**Modules:** [flow](https://github.com/fabrknt/fabrknt-sdk/tree/main/flow) • [guard](https://github.com/fabrknt/fabrknt-sdk/tree/main/guard) • [loom](https://github.com/fabrknt/fabrknt-sdk/tree/main/loom) • [risk](https://github.com/fabrknt/fabrknt-sdk/tree/main/risk) • [privacy](https://github.com/fabrknt/fabrknt-sdk/tree/main/privacy)
 
-Unified SDK for building crypto financial operations on Solana. Integrates all core modules with production-tested primitives and patterns for payment systems, treasury tools, and financial workflows.
-
-**Status:** Active Development (v0.3.0)  
-**License:** MIT  
-**Language:** TypeScript  
-**Modules:** Use independently or together through the unified SDK
-
-#### SDK Core Repositories
-
-Fabrknt SDK consists of five core repositories, each providing specialized functionality. **Each repository can be used independently** or integrated through the unified SDK:
-
--   **[flow](https://github.com/fabrknt/fabrknt-sdk/tree/main/flow)** - The Liquidity Backbone (Multi-DEX liquidity routing)
--   **[guard](https://github.com/fabrknt/fabrknt-sdk/tree/main/guard)** - Security & Compliance (Transaction validation)
--   **[loom](https://github.com/fabrknt/fabrknt-sdk/tree/main/loom)** - Parallel Execution Logic (High-performance execution)
--   **[risk](https://github.com/fabrknt/fabrknt-sdk/tree/main/risk)** - RWA Risk Oracle & Integrity Gateway (Risk assessment)
--   **[privacy](https://github.com/fabrknt/fabrknt-sdk/tree/main/privacy)** - Shielded State Middleware & Privacy Layer (ZK Compression)
+**Status:** Active Development (v0.3.0) | **License:** MIT | **Language:** TypeScript
 
 ---
 
-## 🤝 How to Contribute
+## 🎯 Mission
 
-We welcome contributions from developers of all skill levels!
+Democratize access to verified Web3 company intelligence and facilitate meaningful connections through AI-powered automation.
 
-### Ways to Contribute
-
--   **💻 Code Contributions** - Fix bugs, add features, improve performance
--   **📝 Documentation** - Improve guides, add examples, fix typos
--   **🎨 Patterns** - Create new patterns for common use cases
--   **🐛 Bug Reports** - Help us identify and fix issues
--   **💡 Feature Requests** - Share ideas for new capabilities
--   **👥 Community Support** - Answer questions, help other developers
--   **🌐 Translations** - Help make our docs accessible to more developers
-
-### Getting Started
-
-1. **Read our [Contributing Guide](https://github.com/fabrknt/fabrknt-sdk#contributing)**
-2. **Check [Good First Issues](https://github.com/fabrknt/fabrknt-sdk/labels/good%20first%20issue)**
-3. **Join [GitHub Discussions](https://github.com/fabrknt/fabrknt-sdk/discussions)**
-4. **Review [Code of Conduct](https://github.com/fabrknt/fabrknt-sdk/blob/main/CODE_OF_CONDUCT.md)**
-
-All contributions are valued and credited. We follow the [All Contributors](https://allcontributors.org/) specification.
-
----
-
-## 👥 Community
-
-### Connect With Us
-
--   **💬 [GitHub Discussions](https://github.com/fabrknt/fabrknt-sdk/discussions)** - Ask questions, share ideas, get help
--   **🐛 [Issues](https://github.com/fabrknt/fabrknt-sdk/issues)** - Report bugs, request features
--   **🐦 [Twitter/X](https://x.com/fabrknt)** - Updates, announcements, and discussions
--   **🌐 [Website](https://fabrknt.com)** - Project information and resources
-
-### Community Guidelines
-
-We're committed to providing a welcoming and inclusive environment:
-
--   ✅ Be respectful and considerate
--   ✅ Welcome newcomers and help others learn
--   ✅ Give and receive constructive feedback gracefully
--   ✅ Focus on what's best for the community
--   ✅ Show empathy towards other community members
-
----
-
-## 📊 Organization Stats
-
-![Repositories](https://img.shields.io/badge/repositories-9-blue.svg)
-![Contributors](https://img.shields.io/github/contributors/fabrknt/fabrknt-sdk?color=green)
-![Total Stars](https://img.shields.io/github/stars/fabrknt/fabrknt-sdk?style=social)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
-**SDK Modules:** 5 independent repositories + 1 unified SDK  
-**Suite Products:** 3 integrated applications
+**Positioning:** AI × SME Specialization × Integrated Advisory  
+**Market:** Global Web3 ecosystem, specializing in SME transactions (54.6% CAGR through 2030)
 
 ---
 
 ## 🛠️ Tech Stack
 
-Our projects are built with:
-
--   **TypeScript** - Type-safe development
--   **Solana Web3.js** - Blockchain integration
--   **Vitest** - Testing framework
--   **GitHub Actions** - CI/CD
--   **Vercel** - Documentation hosting
-
-We believe in using proven, well-maintained technologies that developers already know and trust.
+Next.js 14 • AWS (Amplify, RDS, Lambda) • Solana • Multi-chain (40+ EVM chains) • AI/NLP
 
 ---
 
-## 🗺️ Roadmap
+## 📚 Resources
 
-### Current Focus (2025 Q1)
-
--   Core SDK stability and performance optimization
--   Comprehensive pattern library expansion
--   Developer documentation and examples
--   Community growth and contributor onboarding
--   Fabrknt Suite development (PULSE, TRACE, FABRIC)
-
-### Future Plans
-
--   Cross-chain support (EVM chains)
--   Hosted API services
--   Advanced analytics and monitoring
--   Developer certification program
-
-See our [public roadmap](https://github.com/fabrknt/fabrknt-sdk/issues) for detailed plans and progress.
+**Website:** [www.fabrknt.com](https://www.fabrknt.com) | **SDK Docs:** [fabrknt-sdk/core](https://github.com/fabrknt/fabrknt-sdk/tree/main/core) | **X:** [@fabrknt](https://x.com/fabrknt)
 
 ---
 
-## 📜 Governance
+## 🤝 Contributing
 
-Fabrknt is currently maintained by [@psyto](https://github.com/psyto) with support from community contributors.
+Open source and community-driven. We welcome contributions via issues, discussions, and pull requests.
 
-We believe in:
-
--   **Transparent decision-making** - Discussions happen in public
--   **Community input** - Major decisions are discussed with contributors
--   **Meritocracy** - Good ideas can come from anyone
--   **Open roadmap** - Our plans are public and open to feedback
-
-As the project grows, we'll transition to a more formal governance model with input from active contributors.
+**License:** MIT - Free forever, no vendor lock-in.
 
 ---
 
-## 💰 Sustainability
-
-Fabrknt is bootstrapped and sustainable through:
-
--   **Open Source SDK** - Free forever (MIT license)
--   **Future Commercial Services** - Optional hosted API, enterprise support
--   **Community Support** - Sponsorships and donations welcome
-
-Our commitment: The core SDK will always be 100% open source and free to use.
-
----
-
-## 📄 License
-
-All Fabrknt projects are released under the **MIT License** unless otherwise specified.
-
-This means you can:
-
--   ✅ Use commercially
--   ✅ Modify freely
--   ✅ Distribute
--   ✅ Use privately
-
-See individual project repositories for specific license details.
-
----
-
-## 🙏 Acknowledgments
-
-Fabrknt builds on the incredible work of:
-
--   **Solana Foundation** - For the high-performance blockchain platform
--   **Jupiter Aggregator** - For DEX liquidity routing
--   **Light Protocol** - For ZK compression capabilities
--   **Open Source Community** - For countless libraries and tools we depend on
-
-We're grateful to stand on the shoulders of giants.
-
----
-
-<div align="center">
-
-## Join Us
-
-Whether you're a developer, designer, technical writer, or enthusiast —
-there's a place for you in the Fabrknt community.
-
-**[Explore Projects](https://github.com/orgs/fabrknt/repositories)** • **[Start Contributing](https://github.com/fabrknt/fabrknt-sdk#contributing)** • **[Join Discussions](https://github.com/fabrknt/fabrknt-sdk/discussions)**
-
----
-
-**Building the future of crypto financial infrastructure, together.**
-
-</div>
+**Building the future of Web3 intelligence and matching.** 🚀
