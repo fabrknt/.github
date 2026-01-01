@@ -2,13 +2,13 @@
 
 **Web3 Intelligence & Matching Platform**
 
-Building production-grade tools for Web3 business intelligence and M&A operations. Our platform combines **Intelligence** (automated company intelligence) and **Match** (M&A & partnership matching) to enable high-trust business transactions.
+We develop and provide **Fabrknt**—a Web3 business intelligence and matching platform. Our service combines **Intelligence** (automated company intelligence) and **Match** (M&A & partnership matching) to enable high-trust business transactions.
+
+We also maintain an open source SDK for developers building crypto financial operations.
 
 ---
 
-## 🌟 Products
-
-### Fabrknt Suite
+## 🌟 Main Product: Fabrknt
 
 **🧠 Intelligence** - Automated company intelligence (growth metrics, team health, verified data)  
 **🔗 Match** - M&A & partnership matching powered by Intelligence data
@@ -18,7 +18,9 @@ Building production-grade tools for Web3 business intelligence and M&A operation
 
 **Key Features:** 50%+ time reduction, weeks-to-days processing, three-tier data integration, SME focus ($1M-$5M range)
 
-### Developer SDK
+---
+
+## 🛠️ Developer SDK
 
 **[fabrknt-sdk](https://github.com/fabrknt/fabrknt-sdk)** - Open source SDK for crypto financial operations on Solana
 
@@ -37,7 +39,7 @@ Democratize access to verified Web3 company intelligence and facilitate meaningf
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack
 
 Next.js 14 • AWS (Amplify, RDS, Lambda) • Solana • Multi-chain (40+ EVM chains) • AI/NLP
 
