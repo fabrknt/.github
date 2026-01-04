@@ -4,10 +4,12 @@
 
 **FABRKNT** is a Web3 Index & Synergy platform built for **early verification**.
 
+**Verify Web3. Discover Synergy.**
+
 We help **Web3 Corp Dev teams, investors, and founders** verify companies using real on-chain activity, GitHub signals, and social data — fully automated, no self-reporting.
 
-**Website:** [www.fabrknt.com](https://www.fabrknt.com)  
-**GitHub:** [github.com/fabrknt](https://github.com/fabrknt)  
+**Website:** [www.fabrknt.com](https://www.fabrknt.com)
+**GitHub:** [github.com/fabrknt](https://github.com/fabrknt)
 **X (Twitter):** [@fabrknt](https://x.com/fabrknt)
 
 ---
@@ -36,7 +38,9 @@ We believe that **Web3 deserves better signals**. Verification beats trust. Data
 
 **FABRKNT is built in public — because credibility matters.**
 
-> FABRKNT does not rank narratives.  
+> **Pitch decks lie. On-chain data doesn't.**
+
+> FABRKNT does not rank narratives.
 > We index reality.
 
 ---
@@ -58,22 +62,22 @@ Web3 has a trust problem:
 
 FABRKNT fixes the first step.
 
-**No forms.**  
-**No pitch decks.**  
+**No forms.**
+**No pitch decks.**
 **No self-reported metrics.**
 
 **Only signals that can be verified.**
 
 ### How It Works
 
-1. **Verify**  
-   We automatically analyze on-chain data, GitHub activity, and social signals.
+1. **Verify**
+   Automated analysis of on-chain data, GitHub activity, and social signals.
 
-2. **Score**  
-   Companies receive transparent, comparable index scores.
+2. **Index**
+   Companies ranked on real metrics, not marketing claims.
 
-3. **Connect**  
-   Use verified data to approach acquisitions and partnerships with confidence.
+3. **Discover**
+   AI-powered synergy matching based on verified compatibility.
 
 ---
 
@@ -85,41 +89,41 @@ An automated index that shows what Web3 companies actually do — not what they 
 
 **What we verify:**
 
--   **On-chain growth**  
+-   **On-chain growth**
     Wallet activity, protocol usage, real traction
 
--   **Team & code health**  
+-   **Team & code health**
     GitHub commits, contributors, retention, code quality
 
--   **Signal integrity**  
+-   **Signal integrity**
     Cross-verified via blockchain and public APIs
 
 **If it can't be verified, it doesn't count.**
 
-### SYNERGY — Quiet M&A & Partnerships
+### SYNERGY — Discover Verified Connections
 
-Discover acquisition targets and partnership opportunities — without broadcasting intent.
+Find acquisition targets, integration partners, and strategic opportunities—quietly, using verified data.
 
 **Built for:**
 
 -   Corp Dev teams scouting quietly
--   Strategic partnerships and integrations
--   Ecosystem collaborations
+-   Integration and acquisition opportunities
 -   Early M&A conversations
+-   Strategic partnerships
 
-AI-powered compatibility analysis based on **verified index scores**, not narratives.
+**AI-powered compatibility scoring based on verified data**, not pitch decks.
 
 ---
 
 ## Our Approach
 
--   **100% automated verification**  
-    No manual input, no manipulation—just trustworthy, transparent index.
+-   **100% automated verification**
+    No manual input, no manipulation—just trustworthy, objective index.
 
--   **No self-reported metrics**  
+-   **No self-reported metrics**
     We only use data that can be independently verified.
 
--   **Built for Web3, by Web3**  
+-   **Built for Web3, by Web3**
     We understand the unique challenges of the Web3 ecosystem.
 
 ---
@@ -140,12 +144,16 @@ Get discovered for what you actually build — not how well you sell.
 
 ---
 
-## Key Differentiators
+## Design Philosophy
 
--   **23+ Web3 companies fully verified** (and growing)
--   **100% automated — no manual input**  
-    On-chain + GitHub + social signals
--   **Used by teams who can't afford to trust unverifiable metrics**
+FABRKNT uses a **Financial Terminal aesthetic** — dark, data-dense, and professional.
+
+Think data infrastructure, not marketing. Built for serious business decisions.
+
+**Color System:**
+-   **Cyan terminal accents** — data, technology, verified signals
+-   **Emerald green** — discovery, verified states, success
+-   **Dark slate backgrounds** — professional, focused, authoritative
 
 ---
 
@@ -168,6 +176,20 @@ No manual data entry means trustworthy, objective index.
 
 ---
 
+## Current Status
+
+**Preview Launch — January 2025**
+
+FABRKNT is in early preview with:
+-   ✅ Automated verification infrastructure
+-   ✅ AI-powered partnership matching
+-   ✅ Authentication and claiming system
+-   ✅ Financial Terminal design system
+
+We're building in public and gathering feedback from early users.
+
+---
+
 ## Open Development
 
 We believe in building in public. Follow our journey on GitHub and X as we continue to expand our index coverage and synergy capabilities.
@@ -186,11 +208,11 @@ We believe in building in public. Follow our journey on GitHub and X as we conti
 
 ## Call to Action
 
-**Stop trusting claims.**  
+**Stop guessing.**
 **Start verifying.**
 
-→ [Explore Verified Companies](/cindex)  
-→ [Find Strategic Synergies](/synergy)
+→ [Explore Verified Companies](https://www.fabrknt.com/cindex)
+→ [Find Real Synergies](https://www.fabrknt.com/synergy)
 
 ---
 
