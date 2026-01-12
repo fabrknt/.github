@@ -1,32 +1,29 @@
-# FABRKNT
+# Fabrknt
 
-**AI-Powered DeFi Yield Curation**
+**Risk-first DeFi yield intelligence for Solana.**
 
----
+We help you find sustainable yields through rigorous risk analysis, not by chasing the highest APY.
 
-We build intelligent tools for DeFi yield curators, investors, and protocol teams.
+## What We Build
 
-## What We Do
+- **Yield Intelligence** — AI-powered pool analysis with composite risk scores
+- **Protocol Comparison** — Compare Kamino, Marginfi, Meteora, and other Solana protocols
+- **LST Analysis** — Deep dive into liquid staking tokens with MEV and decentralization metrics
+- **Risk Tools** — IL Calculator, Position Simulator, APY stability analysis
 
-**CURATE** — Our flagship product that combines real-time yield data with AI-powered analysis:
+## Our Principles
 
-- **AI Recommendations** — Personalized pool suggestions based on your risk profile
-- **Smart Risk Insights** — Natural language analysis of risks and opportunities
-- **Portfolio Optimizer** — AI-driven allocation across yield pools
-- **Risk Scoring** — Composite scores (0-100) for 5,000+ pools
-- **APY Stability** — 30-day trend analysis and volatility metrics
-- **Liquidity Analysis** — Exit-ability ratings and slippage estimates
-
-## Tech Stack
-
-`Next.js` `React` `TypeScript` `Tailwind CSS` `PostgreSQL` `Anthropic Claude` `Vercel`
+| | |
+|---|---|
+| **Read-Only** | We never request wallet permissions |
+| **Non-Custodial** | Your keys, your funds |
+| **Transparent** | Open methodology |
 
 ## Links
 
 - **Website:** [fabrknt.com](https://www.fabrknt.com)
-- **Product:** [CURATE](https://www.fabrknt.com/curate)
-- **X:** [@fabrknt](https://x.com/fabrknt)
+- **X (Twitter):** [@fabrknt](https://x.com/fabrknt)
 
 ---
 
-*DeFi yields, curated by AI.*
+*Sustainable DeFi yields through intelligent risk analysis.*
