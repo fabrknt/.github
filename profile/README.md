@@ -1,29 +1,38 @@
-# Fabrknt
+# FABRKNT
 
-**Risk-first DeFi yield intelligence for Solana.**
-
-We help you find sustainable yields through rigorous risk analysis, not by chasing the highest APY.
-
-## What We Build
-
-- **Yield Intelligence** — AI-powered pool analysis with composite risk scores
-- **Protocol Comparison** — Compare Kamino, Marginfi, Meteora, and other Solana protocols
-- **LST Analysis** — Deep dive into liquid staking tokens with MEV and decentralization metrics
-- **Risk Tools** — IL Calculator, Position Simulator, APY stability analysis
-
-## Our Principles
-
-| | |
-|---|---|
-| **Read-Only** | We never request wallet permissions |
-| **Non-Custodial** | Your keys, your funds |
-| **Transparent** | Open methodology |
-
-## Links
-
-- **Website:** [fabrknt.com](https://www.fabrknt.com)
-- **X (Twitter):** [@fabrknt](https://x.com/fabrknt)
+**DeFi insights, not just data.**
 
 ---
 
-*Sustainable DeFi yields through intelligent risk analysis.*
+We build insight-driven tools for the Solana DeFi ecosystem. Our mission is to make DeFi accessible by surfacing the insights that matter—without overwhelming users with raw data.
+
+## What We're Building
+
+**[fabrknt.com](https://www.fabrknt.com)** — A yield intelligence platform that helps you find sustainable DeFi opportunities through:
+
+- **AI-Powered Recommendations** — Risk-adjusted pool picks, not just highest APY
+- **Curator Strategies** — Learn from how pros like Gauntlet allocate capital
+- **Yield Opportunities** — Cross-protocol spread detection with net-of-cost analysis
+- **Educational Tools** — Protocol comparisons, LST analysis, IL calculators
+
+## Our Philosophy
+
+| Traditional Analytics | FABRKNT |
+|-----------------------|---------|
+| Data dumps | Actionable insights |
+| Built for pros | Accessible to all |
+| Raw metrics | Risk-adjusted analysis |
+| You figure it out | We guide you |
+
+## Tech Stack
+
+Next.js · React · TypeScript · Tailwind CSS · Anthropic Claude · PostgreSQL · Vercel
+
+## Connect
+
+- **Website:** [fabrknt.com](https://www.fabrknt.com)
+- **X:** [@fabrknt](https://x.com/fabrknt)
+
+---
+
+*Building at the intersection of institutional finance and DeFi.*
