@@ -1,30 +1,41 @@
-# FABRKNT
+# Welcome to Fabrknt
 
-**DeFi infrastructure & yield.**
+**Building Syntx — a composable perp DEX on Solana — through live vaults, intelligence, and education.**
 
-We build compliance tooling, data APIs, and automated yield vaults across Solana and Hyperliquid.
+Everything we build converges on Syntx: a vault-native perpetual futures DEX on Percolator, powered by 29 infrastructure packages and 5 custom matchers.
 
 ---
 
-## Products
+## Our Products
 
-| Project | What It Does |
-|---------|-------------|
-| **[Scorecard](https://github.com/fabrknt/scorecard)** | DeFi compliance scorecard — rates 20 protocols across 7 compliance criteria |
-| **[API](https://github.com/fabrknt/api)** | Compliance, privacy, and data infrastructure — REST APIs and QuickNode add-ons |
-| **[Forge](https://github.com/fabrknt/forge)** | Personalized Solana DeFi allocations with compliance and data plug-ins |
-| **[PerpU](https://github.com/fabrknt/perpu)** | Cross-protocol perp DEX learning platform — master on-chain trading & yield |
-| **Yogi** | Tilted delta-neutral funding rate vault on Drift (Solana) |
-| **Kodiak** | Delta-neutral funding rate vault on Hyperliquid |
+- **[Yogi](https://github.com/psyto/yogi)** -- Solana funding rate vault on Drift via Voltr. 4D anomaly detection, regime engine. 12-18% target APY. Mainnet live.
+- **[Kodiak](https://github.com/psyto/kodiak)** -- Hyperliquid DN yield vault. 5-layer yield stacking on HYPE: funding + tilt + staking + lending + airdrops. Mainnet live.
+- **[PerpU](https://github.com/fabrknt/perpu)** -- Cross-protocol perp DEX learning platform. 5 tracks, 182 lessons covering Hyperliquid + Drift.
+- **[Fabrknt Flow](https://github.com/fabrknt/flow)** -- Capital flow intelligence terminal for Hyperliquid. AI-driven analysis. Live at flow.fabrknt.com.
+- **[Syntx](https://github.com/psyto/syntx)** -- Composable perp DEX on Solana, built on Anatoly's Percolator risk engine. Vault-native by design.
 
-## Vaults
+## Infrastructure SDKs
 
-**Yogi** and **Kodiak** harvest funding rates through delta-neutral positions — spot + perp pairs that cancel out price movement, collecting pure yield with near-zero price risk. Multi-dimensional anomaly detection engines adapt deployment before stress hits.
+29 packages published as `@fabrknt/*` covering compliance, privacy, security, and DeFi infrastructure:
 
-- **Yogi (Drift/Solana)** — Dynamic tilt, cross-venue funding comparison, live on mainnet
-- **Kodiak (Hyperliquid)** — Six-signal regime engine, DN with configurable directional bias
+- **[Accredit](https://github.com/fabrknt/accredit)** -- On-chain KYC/AML enforcement
+- **[Complr](https://github.com/fabrknt/complr)** -- AI-powered regulatory screening
+- **[Sentinel](https://github.com/fabrknt/sentinel)** -- Pre-transaction security analysis
+- **[Veil](https://github.com/fabrknt/veil)** -- Privacy & encryption primitives
+- **[Stratum](https://github.com/fabrknt/stratum)** -- State optimization & data feeds
+- **[Tensor](https://github.com/fabrknt/tensor)** -- Portfolio margin engine
+- **[Tempest](https://github.com/fabrknt/tempest)** -- Dynamic AMM fee curves
+
+## Tech Stack
+
+TypeScript, Rust/Anchor, Python, Solana, Hyperliquid, Next.js, React
 
 ## Connect
 
-- **Website:** [fabrknt.com](https://www.fabrknt.com)
-- **X:** [@fabrknt](https://x.com/fabrknt)
+- **[flow.fabrknt.com](https://flow.fabrknt.com)** -- Capital flow intelligence
+- **[Twitter/X](https://x.com/fabrknt)** -- Updates and discussions
+- **[@psyto](https://github.com/psyto)** -- Founder
+
+---
+
+**Building DeFi infrastructure that ships.**
