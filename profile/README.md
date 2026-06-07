@@ -30,15 +30,11 @@ These products are currently presented through [fabrknt.com](https://fabrknt.com
 
 | Project | Role |
 |---------|------|
-| **[website](https://github.com/fabrknt/website)** | Main marketing site and early-access funnel for Fabrknt |
+| **[rdk/openhl](https://github.com/fabrknt/rdk/tree/main/openhl)** | Core EVM perp system work behind the EVM Perp Sandbox |
+| **[openhl-solana](https://github.com/fabrknt/openhl-solana)** | Solana perp system design and execution research |
+| **[rdk/princeps](https://github.com/fabrknt/rdk/tree/main/princeps)** | EVM prime broker and unified margin system work |
+| **[ssr](https://github.com/fabrknt/ssr)** | Solana prime broker and shared-risk brokerage design |
 | **[rethlab](https://github.com/fabrknt/rethlab)** | Deep technical learning and research around the Rust Ethereum stack |
-
-Internal engines currently surfaced by the site include:
-
-- `OpenHL`
-- `OpenHL Solana`
-- `Princeps`
-- `SSR`
 
 ---
 
